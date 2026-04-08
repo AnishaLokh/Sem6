@@ -13,6 +13,7 @@
     
     if(user == null){
         response.sendRedirect("login.jsp");
+        return;
     }
     
     // Handle adding new task
